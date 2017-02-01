@@ -19,7 +19,13 @@ $clrBorderTable: #f1f1f1;
 
 table.art_body {
   background-color: white;
-
+}
+.art_body {
+  .main_data, .table_product {
+    & .row .columns {
+      th {font-size: 14px;}
+    }
+  }
 }
 .logo {
   padding-top: 15px;
@@ -44,7 +50,6 @@ table.art_body {
   border-top: 1px solid $color_3;
 }
 .title_main_data_order {
-  font-size:14px;
   text-transform: uppercase;
   padding-bottom: 20px;
   .hr_top{
@@ -76,6 +81,19 @@ table.art_body {
       padding-bottom: 5px;
       border-bottom: 1px solid $clrBorderTable;
     }
-
+  }
+  .results_table {
+    .columns {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $clrBorderTable;
+    }
+    .empty{
+      border-bottom: none;
+    }
   }
 }
+.footer {
+  margin-top: 40px;
+}
+

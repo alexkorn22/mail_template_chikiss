@@ -39,66 +39,68 @@
             </columns>
           </row> <!-- Text header -->
 
-          <row>
-            <columns small="12" class="title_main_data_order">
-              <div class="hr_top">
-                <b>Данные заказа</b>
-              </div>
-            </columns>
-          </row><!-- mai data order -->
-          <!-- items data order -->
-          <row>
-            <columns small="6" class="name main_data">
-              Дата оформления заказа:
-            </columns>
-            <columns small="6" class="value main_data">
-              2017-01-10
-            </columns>
-          </row> <!-- //item data order -->
-          <row>
-            <columns small="6" class="name main_data">
-              Номер заказа:
-            </columns>
-            <columns small="6" class="value main_data">
-              001051
-            </columns>
-          </row> <!-- //item data order -->
-          <row>
-            <columns small="6" class="name main_data">
-              Способ доставки:
-            </columns>
-            <columns small="6" class="value main_data">
-              Почтомат ПриватБанка (Міст Експрес)
-            </columns>
-          </row> <!-- //item data order -->
-          <row>
-            <columns small="6" class="name main_data">
-              Способ оплаты:
-            </columns>
-            <columns small="6" class="value main_data">
-              Оплата при доставке
-            </columns>
-          </row> <!-- //item data order -->
-          <row>
-            <columns small="6" class="name main_data">
-              Данные получателя:
-            </columns>
-            <columns small="6" class="value main_data">
-              Экатерина Ернестовна Иваныкина-Малых,
-              просп. Соборний (Леніна) 158 / ,
-              Запоріжжя, Украина
-            </columns>
-          </row> <!-- //item data order -->
-          <row>
-            <columns small="6" class="name main_data">
-              Данные Клиента:
-            </columns>
-            <columns small="6" class="value main_data">
-              Экатерина Ернестовна Иваныкина-Малых,
-              просп. Соборний (Леніна) 158 ,
-              Запоріжжя, Украина
-            </columns>
-          </row> <!-- //item data order -->
+          <div class="main_data">
+            <row>
+              <columns small="12" class="title_main_data_order">
+                <div class="hr_top">
+                  <b>Данные заказа</b>
+                </div>
+              </columns>
+            </row><!-- mai data order -->
+            <!-- items data order -->
+            <row>
+              <columns small="6" class="name main_data">
+                Дата оформления заказа:
+              </columns>
+              <columns small="6" class="value main_data">
+                2017-01-10
+              </columns>
+            </row> <!-- //item data order -->
+            <row>
+              <columns small="6" class="name main_data">
+                Номер заказа:
+              </columns>
+              <columns small="6" class="value main_data">
+                001051
+              </columns>
+            </row> <!-- //item data order -->
+            <row>
+              <columns small="6" class="name main_data">
+                Способ доставки:
+              </columns>
+              <columns small="6" class="value main_data">
+                Почтомат ПриватБанка (Міст Експрес)
+              </columns>
+            </row> <!-- //item data order -->
+            <row>
+              <columns small="6" class="name main_data">
+                Способ оплаты:
+              </columns>
+              <columns small="6" class="value main_data">
+                Оплата при доставке
+              </columns>
+            </row> <!-- //item data order -->
+            <row>
+              <columns small="6" class="name main_data">
+                Данные получателя:
+              </columns>
+              <columns small="6" class="value main_data">
+                Экатерина Ернестовна Иваныкина-Малых,
+                просп. Соборний (Леніна) 158 / ,
+                Запоріжжя, Украина
+              </columns>
+            </row> <!-- //item data order -->
+            <row>
+              <columns small="6" class="name main_data">
+                Данные Клиента:
+              </columns>
+              <columns small="6" class="value main_data">
+                Экатерина Ернестовна Иваныкина-Малых,
+                просп. Соборний (Леніна) 158 ,
+                Запоріжжя, Украина
+              </columns>
+            </row> <!-- //item data order -->
+          </div>
 
           <!-- Table product -->
           <div class="table_product">
@@ -165,14 +167,20 @@
                 <div class="results_table">
 
                   <row class="results">
+                    <columns small="6" class="empty">
+
+                    </columns>
                     <columns small="3" class="title">
                       Доставка
                     </columns>
-                    <columns small="6" class="value">
+                    <columns small="3" class="value">
                       -
                     </columns>
                   </row><!-- //result table -->
                   <row class="results">
+                    <columns small="6" class="empty">
+
+                    </columns>
                     <columns small="3" class="title">
                       Скидка
                     </columns>
@@ -181,10 +189,13 @@
                     </columns>
                   </row><!-- //result table -->
                   <row class="results">
-                    <columns small="3" class="title">
+                    <columns small="6" class="empty">
+
+                    </columns>
+                    <columns small="3" class="title empty">
                       Всего
                     </columns>
-                    <columns small="3" class="value">
+                    <columns small="3" class="value empty">
                       780 грн
                     </columns>
                   </row><!-- //result table -->
@@ -193,24 +204,29 @@
             </row>
 
           </div> <!-- //table product -->
-
+          <row>
+            <columns small="12" class="title_main_data_order">
+              <div class="hr_top">
+                 &nbsp;
+              </div>
+            </columns>
+          </row>
           <!-- footer_content -->
           <row class="footer_content">
-            <columns small="12">
+            <columns small="11">
               Если у Вас есть какие-либо замечания/предложения по работе
               менеджеров или по самим товарам, пожалуйста, пишите нам
-              на  почту: __________
+              на  почту: <a href="mailto:admin@chikiss.com.ua">admin@chikiss.com.ua</a>
             </columns>
           </row>
 
           <!-- Footer -->
-          <row>
+          <row class="footer">
             <columns small="12" class="text">
               С уважением,<br/>
               Команда Chikiss.com.ua
             </columns>
           </row>
-          <hr>
         </container>
       </center>
     </td>

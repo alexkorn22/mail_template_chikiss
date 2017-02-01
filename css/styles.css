@@ -1384,6 +1384,9 @@ body.outlook p {
 table.art_body {
   background-color: white; }
 
+.art_body .main_data .row .columns th, .art_body .table_product .row .columns th {
+  font-size: 14px; }
+
 .logo {
   padding-top: 15px; }
   .logo img {
@@ -1403,7 +1406,6 @@ table.art_body {
   border-top: 1px solid #434343; }
 
 .title_main_data_order {
-  font-size: 14px;
   text-transform: uppercase;
   padding-bottom: 20px; }
   .title_main_data_order .hr_top {
@@ -1426,3 +1428,12 @@ table.art_body {
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid #f1f1f1; }
+  .table_product .results_table .columns {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f1f1f1; }
+  .table_product .results_table .empty {
+    border-bottom: none; }
+
+.footer {
+  margin-top: 40px; }
