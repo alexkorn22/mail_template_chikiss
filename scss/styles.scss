@@ -58,13 +58,24 @@ table.art_body {
 .row .columns.main_data {
   padding-bottom: 3px;
 }
-.art_body .container .table_product .row.title {
-  margin-top: 20px;
-}
+
 .table_product {
   font-size: 14px;
-  .columns {
-    border-bottom: 1px solid blue;
+  margin-top: 20px;
+  .title_table {
+    .row {
+      background-color: $clrBorderTable;
+    }
+    .title_table_prod {
+      padding-top: 10px;
+    }
   }
+  .items_products {
+    .columns {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $clrBorderTable;
+    }
 
+  }
 }
